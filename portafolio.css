@@ -294,7 +294,7 @@ i.fa-solid {
 		align-items: center;
 		z-index: 200;
 		background: rgba(101, 234, 134, .5);
-		height: 19vh;
+		height: 400%;
 		transition: transform .4s;
 		border-radius: 6px;
 	}
@@ -307,7 +307,7 @@ i.fa-solid {
 		align-items: center;
 		z-index: 200;
 		background: rgba(101, 234, 134, .5);
-		height: 19vh;
+		height: 20vh;
 		border-radius: 6px;
 	}
 }
