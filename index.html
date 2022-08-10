@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="descrition" content="its a portfolio">
+	<meta name="keywors" content="portfolio, portafolio, web, programador, frontend, fron-tend, programmer">	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="portafolio.css">
+	<link rel="icon" href="./media/brujula.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/9a2d26e047.js" crossorigin="anonymous"></script>
+	<title>my portfolio</title>
+</head>
+
+<body>
+	<header>
+		<nav id="nav">
+			<a href="#sec_1">Start</a>
+			<a href="#sec_2">Technologies</a>
+			<a href="#sec_3">Hobbies</a>
+			<a href="#sec_4">Goals</a>
+		</nav>
+		<i id="tri-line" class="fa-solid fa-bars"></i>
+	</header>
+
+	<section id="sec_1">
+		<div id="bground"></div>
+		<article id="art_1"><h1>Welcome  </h1> My name is <b>Mauricio Rodríguez</b> and i'm a <b>front-end developer</b></article>
+		<!--</img src="laptop.png" id="laptop"> -->
+	</section>
+
+	<section id="sec_2"
+	data-aos="fade-up">
+		<article>I have knowlege in:</article>
+	 <div id="tec">
+		<img src="./media/html-5.png" alt="" class="tec">
+		<img src="./media/css-3.png" alt="" class="tec">
+		<img src="./media/js.png" alt="" class="tec">
+		<!--<img src="sass.png" alt="" class="tec"> -->
+	</div>
+
+	</section>
+
+	<section id="sec_3" data-aos="fade-up">
+		<article>
+			My hobbies are:
+			<ul>
+				<li>-Learn languages</li>
+				<li>-Drawing</li>
+				<li>-Programming</li>
+				<li>-Sciences</li>
+			</ul>
+		</article>
+		<img src="./media/4195199.jpg" alt="">
+	</section>
+
+	<section id="sec_4" data-aos="fade-up">
+		<div id="brujula">
+				<img src="./media/star.png" alt="" id="arrow">
+		</div>
+		<article>
+			im a newbie front-end developer who is on his way to success. My goal is to be a proffesional developer, and then i will be a expert on cyber security
+		</article>
+	</section>
+
+	<footer>
+		<ul>
+			<li><img src="./media/instagram.png" alt=""><a href="https://www.instagram.com/maurrg07/">instagram</a></li>
+			<li><img src="./media/gmail.png" alt="">maurrg04@gmail.com</li>
+		</ul>
+		<a href="https://www.flaticon.es/iconos-gratis/rosa-de-los-vientos" title="rosa de los vientos iconos">Rosa de los vientos iconos creados por Amethyst prime - Flaticon</a>
+		<a href="https://www.freepik.es/vectores/leer">Vector de leer creado por storyset - www.freepik.es</a>
+	</footer>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  	<script>
+  		AOS.init({
+  	duration: 3000})</script>
+
+  	<script type="text/javascript">
+  		const menu = document.getElementById('tri-line') ;
+  		const otroMenu = document.getElementById('nav');
+  		
+  		function cambio () {
+  			otroMenu.classList.toggle("main_menu");
+  		}
+
+  		menu.addEventListener( "click", cambio);
+  		
+  	</script>
+
+</body>
+</html>
