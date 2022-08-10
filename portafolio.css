@@ -24,7 +24,7 @@ body {
 
 header {
 	height: 40px;
-	width: calc(100vw - 1px);
+	width: calc(100vw - 15px);
 	background: rgba(101, 234, 134, .5);
 	display: flex;
 	justify-content: flex-end;
@@ -61,7 +61,7 @@ section {
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
-	width: calc(100vw - 1px);
+	width: calc(100vw - 15px);
 	filter: blur(8px);
 }
 
@@ -175,7 +175,7 @@ footer {
 	background-color: #B7EBC1;
 	display: flex;
 	justify-content: center;
-	width: calc(100vw - 1px);
+	width: calc(100vw - 15px);
 	flex-direction: column;
 }
 
@@ -202,7 +202,6 @@ a:hover {
 
 i.fa-solid {
 	display: none;
-	padding: 7px 10px;
 	color: black;
 }
 
@@ -232,6 +231,9 @@ i.fa-solid {
 
 	i.fa-solid {
 		display: block;
+		padding: 10px;
+		position: relative;
+		right: 2%;
 	}
 
 	#sec_2 {
@@ -309,5 +311,17 @@ i.fa-solid {
 		background: rgba(101, 234, 134, .5);
 		height: 20vh;
 		border-radius: 6px;
+	}
+
+	header {
+		width: 100vw;
+	}
+
+	footer {
+		width: 100vw;
+	}
+
+	#bground{
+		width: 100vw;
 	}
 }
