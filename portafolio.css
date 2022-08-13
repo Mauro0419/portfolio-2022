@@ -178,7 +178,7 @@ h1 {
 
 
 footer {
-	height: 20vh;
+	height: 100%;
 	padding-top: 25px;
 	background-color: #B7EBC1;
 	display: flex;
